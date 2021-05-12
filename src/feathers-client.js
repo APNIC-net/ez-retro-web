@@ -8,7 +8,7 @@ let url;
 if (window.location.hostname === 'localhost') {
   url = 'http://localhost:3030';
 } else {
-  url = 'https://ez-retro.herokuapp.com';
+  url = 'https://ez-retro-server.gke-sydney-test.nonprod.xyz.apnic.net';
 }
 const socket = io(url, { transports: ['websocket'] });
 
