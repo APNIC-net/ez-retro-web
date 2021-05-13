@@ -25,7 +25,14 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Upload to bucket
 
-To upload the static front-end to the Google Cloud Bucket, run:
+Configure the application with the correct back-end:
+
+```
+src/feathers-client.js
+```
+
+To upload the static front-end to the Google Cloud Bucket, run the following
+after having built the application:
 
 ```
 $ gcloud config set project my-gcp-project
